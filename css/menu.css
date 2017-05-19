@@ -2,7 +2,6 @@ body {
   background-image: url(../image/bg-img.png);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
 }
 
 
@@ -18,12 +17,41 @@ body {
   margin-left: 30%;
   color: white;
 }
+.menu-1 {
+  position: fixed;
+  top: 5%;
+  left: 65%;
+}
+
+.menu-2 {
+  position: fixed;
+  top: 5%;
+  left: 80%;
+}
+
+.menu-t {
+  border: 2px solid #a1a1a1;
+  background: black;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  width : 100px;
+  height: 100px;
+}
+
+.menu-t img {
+  margin: 25%;
+}
+
+
 
 .menu-desc {
   background-color: ghostwhite;
   display: -webkit-flex; /* Safari */
   display: flex;
   align-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  opacity:0.8;
 }
 
 .menu-desc img {
@@ -33,9 +61,33 @@ body {
 }
 
 .menu-desc p {
-  font-size: 30px;
+  font-size: 40px;
 }
 
-.menu-name {
-  font-size: 40px;
+
+.menu-num {
+  color: red;
+}
+
+.direct {
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+}
+
+.direct img {
+  width: 40%;
+  height:auto;
+}
+
+.shop {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+}
+
+.shop img {
+  width: 40%;
+  height: auto;
+  float: right;
 }
