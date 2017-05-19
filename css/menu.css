@@ -2,6 +2,12 @@ body {
   background-image: url(../image/bg-img.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+p {
+  font-size: 40px;
 }
 
 .menu-title {
@@ -87,4 +93,22 @@ body {
   width: 40%;
   height: auto;
   float: right;
+}
+
+.menu-3 {
+  border: 2px solid #a1a1a1;
+  background: black;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.menu-3 img{
+  width: 80%;
+  margin: 11%;
+}
+
+.menu-word {
+  color: white;
 }
