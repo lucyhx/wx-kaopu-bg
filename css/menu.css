@@ -1,40 +1,42 @@
 body {
   background-image: url(../image/bg-img.png);
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   opacity: 0.8;
 }
-p {
-  font-size: 30px;
+
+.box {
+  display: -webkit-flex; /* Safari */
+  display: flex;
 }
 
-.menu-1 {
+.menu-title {
   filter: alpha(opacity=80);
-  text-align:center;
-  border:2px solid #a1a1a1;
-  padding:10px 40px;
-  background:#a1a1a1;
-  width:250px;
-  border-radius:25px;
-  -moz-border-radius:25px;
+  text-align: center;
+  border: 2px solid #a1a1a1;
+  background: #a1a1a1;
+  width: 80%;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
   margin-top: 10%;
-  margin-left: 35%;
+  margin-left: 10%;
   color: white;
   font-size: 30px;
 }
- .menu-2 {
-   background-color: ghostwhite;
-   display: flex;
-   flex-direction: row;
 
- }
- .menu-2 img {
-   width:30%;
-   height: auto;
-   margin: 5%;
- }
- .menu-2 p {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap
- }
+.menu-desc {
+  background-color: ghostwhite;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  align-items: center;
+}
+
+.menu-desc img {
+  width: 30%;
+  height: auto;
+  margin: 5%;
+}
+
+.menu-desc p {
+  font-size: 30px;
+}
