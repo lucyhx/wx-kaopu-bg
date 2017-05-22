@@ -157,9 +157,10 @@ p {
 }
 
 .menu-r {
+  height: 100%;
   position: fixed;
   right: 0;
-  top: 15%;
+  top: 0;
   display: -webkit-flex; /* Safari */
   display: flex;
   align-items: center;
