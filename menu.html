@@ -66,9 +66,9 @@
 </nav>
 
 <!-- 导航弹出框-->
-<nav id="direct-btn" class="direct ">
+<div id="direct-btn" class="direct ">
   <img src="image/direct.png">
-</nav>
+</div>
 
 <div id="direct" class="menu-s">
   <div class="menu-l menu-w">
@@ -142,7 +142,7 @@
     </div>
   </div>
 
-  <div class="menu-l">
+  <div id="direct-btn-close" class="menu-l">
     <div class="menu-3">
       <img src="image/return.png">
     </div>
@@ -179,6 +179,9 @@
 
 <script type="text/javascript">
   document.getElementById('direct-btn').onclick = function () {
+    toggleDirectOpen()
+  }
+  document.getElementById('direct-btn-close').onclick = function () {
     toggleDirectOpen()
   }
   function toggleDirectOpen () {
