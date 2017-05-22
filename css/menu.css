@@ -217,7 +217,7 @@ ul, li {
   transform: translate3d(80%, 0, 0);
 }
 
-.menu-r1.menu-open .menu-r1.menu-r {
+.menu-r1.menu-open {
   visibility: visible;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
