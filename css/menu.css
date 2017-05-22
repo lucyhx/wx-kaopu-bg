@@ -95,19 +95,19 @@ p {
 }
 
 /*导航缩放*/
-.menu-s-1.menu-s {
+.menu-s {
   visibility: visible;
   -webkit-transform: scale3d(1, 1, 0);
   transform: scale3d(1, 1, 0);
 }
 
-.menu-s-1.menu-s-open .menu-s-1.menu-s {
+.menu-s.menu-s-open {
   visibility: visible;
   -webkit-transform: scale3d(0, 0, 0);
   transform: scale3d(0, 0, 0);
 }
 
-.menu-s-1:after {
+.menu-s:after {
   display: none;
 }
 
@@ -211,19 +211,19 @@ ul, li {
 }
 
 /*侧边框动画*/
-.menu-r1.menu-r {
+.menu-r {
   visibility: visible;
   -webkit-transform: translate3d(80%, 0, 0);
   transform: translate3d(80%, 0, 0);
 }
 
-.menu-r1.menu-open {
+.menu-r.menu-open {
   visibility: visible;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-.menu-r1:after {
+.menu-r:after {
   display: none;
 }
 

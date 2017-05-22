@@ -66,10 +66,11 @@
 </nav>
 
 <!-- 导航弹出框-->
-<nav class="direct ">
+<nav id="direct-btn" class="direct ">
   <img src="image/direct.png">
 </nav>
-<div class="menu-s menu-s-1">
+
+<div id="direct" class="menu-s">
   <div class="menu-l menu-w">
     <div class="menu-3">
       <img src="image/store.png">
@@ -152,7 +153,7 @@
 </div>
 
 <!--菜单侧拉框-->
-<nav id="menu" class="menu-r menu-r1 ">
+<nav id="menu" class="menu-r">
   <div id="menu-btn" class="menu-r-1">
     <img src="image/totel.png">
     <p>菜单</p>
@@ -177,7 +178,16 @@
 </nav>
 
 <script type="text/javascript">
+  document.getElementById('direct-btn').onclick = function () {
+    toggleDirectOpen()
+  }
+  function toggleDirectOpen () {
+    document.getElementById('direct').classList.toggle('menu-s-open')
+  }
   document.getElementById('menu-btn').onclick = function () {
+    toggleMenuOpen()
+  }
+  function toggleMenuOpen () {
     document.getElementById('menu').classList.toggle('menu-open')
   }
 </script>
